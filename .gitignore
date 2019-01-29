@@ -7,7 +7,7 @@
 
 # testing
 /coverage
-
+./src/video.mp4
 # production
 /build
 
