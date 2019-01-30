@@ -1,0 +1,39 @@
+.header__logo {
+  position:absolute;
+  top:50px;
+  left:43%;
+  z-index: 2;
+  
+  .logo__arrow {
+    animation: rotating 4s linear infinite;
+    transform-origin: 50% 50%;
+  }
+}
+
+@keyframes rotating{
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.header__logo-N {
+    margin-top: -25px;
+    position: absolute;
+    left: -65px;
+    font-size: 65pt;
+    color: #fff;
+}
+.header__logo-W {
+  margin-top: -25px;
+  position: absolute;
+  left: 95px;
+  font-size: 65pt;
+  color: #fff;
+}
+
+
+
+

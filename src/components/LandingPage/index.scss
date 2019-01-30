@@ -51,14 +51,35 @@ $grey: #333;
   p {
     font-size:1.5rem;
     display:block;
-    padding-bottom:2.5rem;
+    padding-bottom:1rem;
   }
-  a { //refactor the code below when you fix the header buttons 
+  .header__btn{ //refactor the code below when you fix the header buttons 
     margin-left:30px;
-    color: $grey;
     text-decoration: none; 
-    background: #34b3a0;
     font-size:1.2rem;
     padding: 1rem 2rem;
+  }
+  .header__btn:visited,
+  .header__btn:link {
+    text-decoration: none;
+    padding: 15px 40px;
+    text-transform: uppercase;
+    display: inline-block;
+    border-radius: 100px;
+  }
+  .header__btn:hover {
+    transform: translateY(-3px);
+  }
+  .header__btn:active {
+    transform: translateY(-2px);
+  }
+  .btn-white {
+    background-color: #fff;
+    color:#333;
+  }
+  .btn-blue {
+    background: #9BC9FF;
+    color:#333;
+   
   }
 }

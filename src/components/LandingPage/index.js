@@ -1,8 +1,11 @@
 import React from 'react';
 import video from '../../video.mp4';
+import Logo from '../Logo/'
 import './index.scss';
 
 export default () => (
+  <>
+  <Logo />
   <header className="header container">
     <div className="header__fullscreen-video-wrap">
       <video src={video} autoPlay loop muted>
@@ -16,8 +19,10 @@ export default () => (
         perferendis necessitatibus numquam amet impedit explicabo? Debitis quasi
         ullam aperiam!
       </p>
-      <a href="#" className="btn header__btn">Login</a>
-      <a href="#" className="btn header__btn">Sign Up</a>
+      <a href="#" className="header__btn btn-white">Login</a>
+      <a href="#" className="header__btn btn-blue">Sign Up</a>
     </div>
   </header>
+    
+</>
 );
