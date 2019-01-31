@@ -1,11 +1,13 @@
 import React from 'react';
 import video from '../../video.mp4';
 import Logo from '../Logo/'
+import Navigation from '../Navigation/'
 import './index.scss';
 
 export default () => (
   <>
   <Logo />
+  <Navigation />
   <header className="header container">
     <div className="header__fullscreen-video-wrap">
       <video src={video} autoPlay loop muted>

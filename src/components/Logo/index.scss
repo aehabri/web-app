@@ -4,10 +4,11 @@
   left:43%;
   z-index: 2;
   
-  .logo__arrow {
-    animation: rotating 4s linear infinite;
-    transform-origin: 50% 50%;
-  }
+  
+}
+.logo__arrow {
+  animation: rotating 4s linear infinite;
+  transform-origin: 50% 50%;
 }
 
 @keyframes rotating{
