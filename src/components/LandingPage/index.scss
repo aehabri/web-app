@@ -69,17 +69,20 @@ $grey: #333;
   }
   .header__btn:hover {
     transform: translateY(-3px);
+    text-shadow: 3px 3px 5px #000000;
+
+
   }
   .header__btn:active {
     transform: translateY(-2px);
   }
   .btn-white {
     background-color: #fff;
-    color:#333;
+    color:#0081CF;
   }
   .btn-blue {
-    background: #9BC9FF;
-    color:#333;
+    background: #0081CF;
+    color:#fff;
    
   }
 }
